@@ -4,7 +4,7 @@ def area_quadrado(lado: float) -> float:
 def area_circulo(raio: float) -> float:
     return 3.14 * raio ** 2
 
-def area_triangulo(base: float, altura: float):
+def area_triangulo(base: float, altura: float) -> float:
     return (base * altura) / 2
 
 def opcoes(opcao: int) -> float:
