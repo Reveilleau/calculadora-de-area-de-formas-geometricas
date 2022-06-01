@@ -27,7 +27,7 @@ def opcoes(opcao: int) -> float:
 
 
 def valida_opcoes(opcao: int):
-    if opcao > 4:
+    if opcao > 3:
         return print('Opção inválida!')
 
 def apresentar_opcoes():
